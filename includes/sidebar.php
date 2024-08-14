@@ -29,8 +29,9 @@
                 </li>
             </ul>
         </li>
+        <!-- Receipt-->
         <li class="sidebar-item">
-            <a href="#" class="sidebar-link">
+            <a href="receipt.php" class="sidebar-link">
                 <i class="lni lni-agenda"></i>
                 <span>Receipt</span>
             </a>
