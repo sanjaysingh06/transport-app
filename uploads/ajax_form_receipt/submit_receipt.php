@@ -1,7 +1,6 @@
-
 <?php
 // submit_receipt.php
-include('../includes/db_connect.php');
+include 'db_connection.php';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $date = $_POST['date'];

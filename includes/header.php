@@ -11,6 +11,8 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets/css/main.css?v=1.0">
     <link rel="stylesheet" href="../assets/css/styles.css">
+
+    <link href="https://cdn.datatables.net/v/bs5/dt-2.1.3/af-2.7.0/date-1.5.3/r-3.0.2/rg-1.5.0/sc-2.4.3/sp-2.3.1/datatables.min.css" rel="stylesheet">
 </head>
 
 <body>

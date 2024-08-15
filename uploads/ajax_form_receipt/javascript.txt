@@ -1,0 +1,36 @@
+<script>
+$(document).ready(function() {
+    // Initialize DataTables
+    $('#receiptsTable').DataTable({
+        "processing": true,
+        "serverSide": true,
+        "ajax": {
+            "url": "fetch_receipts.php",  // URL to fetch data from the server
+            "type": "POST"
+        }
+    });
+
+    // Handle form submission
+    $('#receiptForm').on('submit', function(e) {
+        e.preventDefault();
+
+        $.ajax({
+            url: 'submit_receipt.php',  // URL to handle form submission
+            type: 'POST',
+            data: $(this).serialize(),
+            success: function(data) {
+                if (data.trim() === "success") {
+                    alert("Receipt submitted successfully!");
+                    // Reload DataTables after form submission
+                    $('#receiptsTable').DataTable().ajax.reload();
+                } else {
+                    alert("Error: " + data);
+                }
+            },
+            error: function() {
+                alert("There was an error submitting the form. Please try again.");
+            }
+        });
+    });
+});
+</script>

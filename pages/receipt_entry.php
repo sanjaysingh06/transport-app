@@ -54,7 +54,7 @@
         </div>
 
         <div class="col-md-2 offset-md-4">
-            <input type="text" class="form-control form-control-sm" id="colFormLabelSm" placeholder="Freight">
+            <input type="text" class="form-control form-control-sm" id="colFormLabelSm" placeholder="Freight"> 
         </div>
     </div>
 

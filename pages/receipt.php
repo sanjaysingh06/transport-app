@@ -6,7 +6,7 @@
 
 <div class="container-fluid">
     <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-        <h1 class="h2">Receipt Entry Form</h1>
+        <h1 class="h2">Receipt</h1>
     </div>
     <div class="row">
 
@@ -54,6 +54,41 @@
             </button>
         </div>
 
+    </div>
+    
+    <div class="row">
+        <div class="col col-sm-12">
+            <!-- Table to display submitted data -->
+        <table id="receiptsTable" class="display" style="width:100%">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Transport Code</th>
+                    <th>Transport Name</th>
+                    <th>Party Code</th>
+                    <th>Party Name</th>
+                    <th>Receipt Number</th>
+                    <th>LR Number</th>
+                    <th>Station From</th>
+                    <th>Item</th>
+                    <th>No. of Parcels</th>
+                    <th>Parcel Rate</th>
+                    <th>Freight</th>
+                    <th>Cartage</th>
+                    <th>Commission</th>
+                    <th>Labour</th>
+                    <th>Other</th>
+                    <th>Total</th>
+                    <th>Refund</th>
+                    <th>Grand Total</th>
+                    <th>Delivery Date</th>
+                    <th>Delivery Person</th>
+                    <th>Delivery Charge by Parcel</th>
+                    <th>Delivery Charge Amount</th>
+                </tr>
+            </thead>
+        </table>
+        </div>
     </div>
 </div>
 
